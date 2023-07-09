@@ -1,5 +1,5 @@
 \documentclass[a4paper,11pt]{jsarticle}
-
+\usepackage{multirow}
 %枠設定
 \usepackage[margin=25mm]{geometry}
 % 数式
@@ -141,6 +141,160 @@
   \includegraphics[page=2,width=\textwidth,height=\textheight]{1.pdf}
 \end{figure}
 \clearpage
+
+\section{考察および課題}
+\begin{enumerate}
+  \item 図１の左支点 $A$から集中荷重$ W$ の作用点 $C $までの距離 $a$ が $500，600，700 [mm]$と増加するに
+  つれて，$x_1$ はどのように変化するか．図（横軸を $a $，縦軸を$x_1$とする） を描き，考察せよ．［図２］\\
+  \\
+  \quad 図2は，横軸を$a$，縦軸を$x_1$として$a$と$x_1$の関係をグラフで示している．
+  図2から明らかなように,左支点Aから点Cまでの距離が増加すると,最大たわみを生じる$x_1$も増加する．
+  また,式(2)の$l^2-b^2$の$b$の値が小さくなると,$x_1$が大きくなることからも,
+  実験結果の正当性が裏付けられる．
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=25cm]{1.jpg}}
+  \caption{$a$と$x_1$の関係}
+\end{figure}
+\clearpage
+\item 横軸に荷重 $W [N] $を，縦軸に最大たわみ$ y_{max}[mm]$（測定値および理論値）をとり,$a$ を変化さ
+せた図を描け［図３～５］.\\
+図３～５を 1 つの図にまとめよ［図６］.\\
+横軸に$ W [N]$を，縦軸に誤差率$ \delta [\%]$をとって，図を描け［図７］.\\
+実験結果（図３～７）について，それぞれ考察せよ．\\
+  
+\quad 図３から５に$a = 500，600，700$ のときの，荷重$ W [N] $と，最大たわみ $y_{max}$の関係をグラフを示す．
+図６に$a = 500，600，700$ をまとめたものを示す．図７に軸に$ W [N]$を，縦軸に誤差率$ \delta [\%]$を
+取ったものを示す．図３から５より測定値が理論値を大きく外れていないことが確認できる．また荷重 $W [N] $と最大たわみ$ y_{max}[mm]$
+が比例関係にあることも直線であることから読み取れる．図６より$a$が大きくなればなるほど傾きが小さくなっているのがわかる．
+これは端によれば寄るほど最大たわみが小さくなることを示している．
+式（１）の$b$を$l-a$とすると$a$が大きくなれば分母が小さくなり$y_{max}$が小さくなることがわかる．
+
+
+
+
+
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{2.jpg}}
+  \caption{$a = 500$}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{3.jpg}}
+  \caption{$a =600$}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{4.jpg}}
+  \caption{$a = 700$}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{5.jpg}}
+  \caption{$a = 500，600，700$}
+\end{figure}
+\clearpage
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{6.jpg}}
+  \caption{荷重と誤差率}
+\end{figure}
+\clearpage
+\item レーザの特徴およびその応用技術について，くわしく説明せよ．\\
+\quad レーザ（LASER）は,"Light Amplification by Stimulated Emission of Radiation" 
+の略称であり，光の増幅と刺激放射による放射を利用した装置である．レーザは光子の刺激放射を利用して光を増幅する．
+レーザ媒質内にエネルギーを供給することで,媒質内の原子や分子の励起状態を
+作り出す．励起された原子や分子は,外部からの光子の刺激によってエネルギーを放出し,さらに光子を放出する．
+この放出された光子は,他の励起された原子や分子に対して刺激を与え,同様の光子の放出を引き起こす．
+このプロセスが連鎖的に繰り返されることで,光が増幅され,高強度・高集束・単色性を持つレーザ光が生成される$^{[2]}$．
+表１にレーザの種類と特徴を示す$^{[3]}$．\\レーザ媒質によって波長や特徴が大きく変わるのが確認できる．
+
+
+\begin{table}[h]
+  \caption{レーザの種類と特徴}
+  \small % 表全体のフォントサイズを縮小するために \small を追加
+  \begin{tabular}{|p{1cm}|p{2cm}|p{5cm}|p{4.5cm}|p{3cm}|}
+  \hline
+                      相変化   &  相変化 &  レーザ媒質  &   発振波長 &   動作モード        \\ \hline
+  \multicolumn{1}{|l|}{気体} & 混合ガス   & COレーザ，$CO_2$レーザ ，色素レーザ  &$500nm,10.6{\textmu}m,320〜1260nm$ &CW,パルス  \\ \cline{3-5} 
+  \multicolumn{1}{|l|}{} &    &エキシマレーザ ArF,KrF,XeCl  & $193,248,308nm$ & パルス \\ \hline
+  \multicolumn{1}{|l|}{液体} &  有機系 &  色素レーザ  & $320〜1260nm$ & CW,パルス      \\ \hline
+  \multicolumn{1}{|l|}{個体} &  結晶体& ルビーレーザ，チタンファイヤレーザ,YVO4,YAG & $684.3,800,1064,1064nm $  &  パルス,CW      \\ \cline{2-5} 
+  \multicolumn{1}{|l|}{} & アモルファス& ガラスレーザ & $1060nm$  & パルス  \\ \cline{2-5} 
+  \multicolumn{1}{|l|}{} &  半導体&AlGaAsp,InGaAsP,ZnSe &$700〜900nm,1〜1.6{\textmu}m,490nm$ & CW  \\ \cline{2-5} 
+  \multicolumn{1}{|l|}{} & ファイバー & $Nd^{3+},Er^{3+},Yd^{3+}$ &$1060,1540,1030〜2200nm$ & CW \\ \hline
+  \end{tabular}
+  \end{table}
+ではどのようなところでレーザが使われているのか，
+応用例として実際に触ったことがあるレーザー加工機とLIDERについて詳しく述べる．
+\quad レーザー加工は,レーザーの高いエネルギー密度を利用して,材料の切断だけでなく，溶接,穴あけなどを
+行う加工技術である．一般的には炭酸ガスレーザやYAGレーザ，エキシマレーザなどが使われる．
+金属を加工する場合は主に炭酸ガスレーザ，YAGレーザが使用される．厚さにもよるが硬いダイヤモンドでも
+ドリルより圧倒的に早く穴を開けることができる．
+今後，ダイヤモンド半導体などのダイヤモンド加工には必須の技術であると言えるだろう．
+\quad 次に,LIDARについて説明する．
+LIDARは,レーザー光を照射して,その反射光の情報をもとに対象物までの距離や対象物の形などを
+計測する技術のことでL自律走行車やロボットなどのセンシング技術として広く使用されている．
+LIDARは,環境をスキャンして三次元の地図を作成するためにも使用され，この技術はSLAM
+（Simultaneous Localization and Mapping）などの応用に必要不可欠である．
+図８に,私が実際に2DLIDARを使用して自分の寮の部屋をスキャンした際の様子を示す．
+このデータはROS（Robot Operating System）を使用してセンサーデータを読み取り表示させたものである．
+なお,実際の自動運転車や配膳ロボットなどでは,3DLIDARが使用されることが多い．
+今後，自動運転や自動ロボットなどで活躍することが期待される．
+
+\begin{figure}[h]
+  \centering
+  \rotatebox{90}{\includegraphics[width=24cm]{7.png}}
+  \caption{LIDER}
+\end{figure}
+\clearpage
+\item 精密情報機器の設計にははりのたわみの概念が重要になっている．具体例を挙げて，くわしく説明
+せよ．\\
+\quad はりのたわみとは,はりが荷重を受けて変形した状態のとき,
+初期のはりのラインが湾曲した曲線をいう.はりのたわみは,弾性曲線方程式という微分方程式で
+表される.精密情報機器の設計においては,はりのたわみを考慮することで,部品の寸法や材料の選定を行う必要がある.
+具体例として,CDプレーヤーやブルーレイディスクにおけるピックアップヘッドの位置決めにはりのたわみが
+関係している.ピックアップヘッドは,ディスク上の微細な凹凸をレーザー光で読み取る装置である.
+ピックアップヘッドは,ディスクと一定の距離を保ちながら,高速で回転するディスクに追従する必要がある.
+このとき,ピックアップヘッドを支える部品（アームやばねなど）がはりとして振る舞い,
+荷重や振動によってたわみが生じる.このたわみが大きくなると,ピックアップヘッドとディスクの距離が変化し,
+読み取りエラーや音飛びなどの不具合が発生する可能性がある.
+したがって,CDプレーヤーやブルーレイディスクの設計においては,
+ピックアップヘッドを支える部品のたわみを最小限に抑えることが重要である.
+これには,部品の形状や寸法を適切に設計することや,弾性率や密度などの材料特性を考慮することが必要であるといえる$^{[4]}$$^{[5]}$$^{[6]}$$^{[7]}$$^{[8]}$．
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{8.png}
+  \caption{LIDER}
+\end{figure}
+
+\end{enumerate}
+
+\begin{thebibliography}{20}
+  \bibitem{} 
+  中山 秀太郎：演習・材料力学入門,大河出版（2007）,p.122-124
+  \bibitem{} 
+  谷腰 欣司：レーザー技術入門講座,電波新聞社（2007）,p.51 -63
+  \bibitem{}
+  谷腰 欣司：レーザー技術入門講座,電波新聞社（2007）,p.87
+  
+  \bibitem{}
+  弾性曲線方程式 - Wikipedia https://ja.wikipedia.org/wiki/ (2023/07/08)
+  \bibitem{} 
+  ブルーレイディスクのしくみ | ブルーレイディスクとは | ブルーレイディスクレコーダー | ソニー https://www.sony.jp/bd/about/technology/ (2023/07/08)
+  \bibitem{} 
+  CDプレーヤーの寿命は？何年持つ？ https://rank-king.jp/article/7648 (2023/07/08)
+  \bibitem{}
+  佐藤卓蔵:レーザ［CD プレーヤから X 線レーザまで］,電気書院（1997）,p.134
+  \bibitem{}
+  はりのたわみ（機械工学と自動機設計-17） | 技術情報 | MISUMI-VONA【ミスミ】(2023/07/08)
+\end{thebibliography}
 
 
 \end{document}
