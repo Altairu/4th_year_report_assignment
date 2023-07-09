@@ -182,14 +182,45 @@
 \end{equation}
 を得る．$x$断面における曲げモーメントは，AC 側と CB 側とでは，
 \begin{equation} 
-  M_{AC}=R_Ax={-\dfrac{l-a}{l}W},M_{CB}=R_Ax-W(x-a)={\dfrac{Wa}{l}(l-x)}
+  M_{AC}=R_Ax={\dfrac{W(l-a)}{l}x},M_{CB}=R_Ax-W(x-a)={\dfrac{Wa}{l}(l-x)}
 \end{equation}
-となる．
+となる．したがって，たわみの基本式より
+\begin{equation} 
+  {(\dfrac{d^2y}{dx^2})_{AC}}={-\dfrac{W(l-a)}{EIl}x},
+  {(\dfrac{d^2y}{dx^2})_{CB}}={-\dfrac{Wa}{EIl}(l-x)}
+\end{equation}
+となる．これを積分すれば
+\begin{equation} 
+  {(\dfrac{dy}{dx})_{AC}}={-\dfrac{W(l-a)}{2EIl}x^2+c_1},
+  {(y)_{AC}}={-\dfrac{W(l-a)}{6EIl}x^3+c_1x+c_2}
+\end{equation}
+
+\begin{equation} 
+{(\dfrac{dy}{dx})_{CB}}={-\dfrac{Wa}{EIl}(lx-\dfrac{1}{2}x)+c_1},
+{(y)_{CB}}={-\dfrac{Wa}{EIl}(\dfrac{l}{2}x^2-\dfrac{1}{6}x^3)+c_3x+c_4}
+\end{equation}
+となる．しかるに$x=0$で$y=0$であるため，$c_2=0$，また$x=l$で$y=0$であるため，
+\begin{equation} 
+  {-\dfrac{Wal^2}{3EIl}+c_3l+c_4}=0
+  \end{equation}
+  となる．一方で，$x=a$においては両側のたわみ角とたわみが等しく
+  \begin{equation} 
+    c_4={-\dfrac{Wa^3}{6EI}}
+  \end{equation}
+となる．これを式（１７）にいれ計算すると
+\begin{equation} 
+  c_3={\dfrac{Wa}{6EIl}(2l^2+a^2)}
+\end{equation}
+\begin{equation} 
+  c_1={\dfrac{W(l-a)}{6EIl}(2la-a^2)}
+\end{equation}
+となる．これら積分定数も値をもとに計算すると
+
 
 \clearpage
 \begin{figure}[h]
   \centering
-  \rotatebox{90}{\includegraphics[width=24cm]{2.jpg}}
+  \rotatebox{90}{\includegraphics[width=23.5cm]{2.jpg}}
   \caption{$a = 500$}
 \end{figure}
 \clearpage
