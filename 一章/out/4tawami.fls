@@ -266,4 +266,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 OUTPUT out/4tawami.dvi
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT out/4tawami.aux
