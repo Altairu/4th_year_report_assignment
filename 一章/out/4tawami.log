@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  10 JUL 2023 06:40
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  10 JUL 2023 07:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,16 +320,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 2.jpg Graphic file (type bmp)
 <2.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 194.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 200.
+LaTeX Warning: Float too large for page by 4.284pt on input line 187.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -338,7 +335,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 206.
+LaTeX Warning: Float too large for page by 4.284pt on input line 193.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -347,7 +344,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 5.jpg Graphic file (type bmp)
 <5.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 212.
+LaTeX Warning: Float too large for page by 4.284pt on input line 199.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -356,35 +353,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 6.jpg Graphic file (type bmp)
 <6.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 218.
+LaTeX Warning: Float too large for page by 4.284pt on input line 205.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 236.
+LaTeX Warning: Command \textmu invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 236.
-
-Missing character: There is no ^^b5 in font cmr9!
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 241.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 241.
+LaTeX Warning: Command \textmu invalid in math mode on input line 223.
 
 Missing character: There is no ^^b5 in font cmr9!
 
-Overfull \hbox (45.77357pt too wide) in paragraph at lines 233--244
+LaTeX Warning: Command \textmu invalid in math mode on input line 228.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 228.
+
+Missing character: There is no ^^b5 in font cmr9!
+
+Overfull \hbox (45.77357pt too wide) in paragraph at lines 220--231
 [][][][] 
  []
 
 File: 7.png Graphic file (type bmp)
 <7.png>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 266.
+LaTeX Warning: Float too large for page by 4.284pt on input line 253.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -415,4 +412,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  55i,13n,62p,273b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/4tawami.dvi (16 pages, 26908 bytes).
+Output written on out/4tawami.dvi (16 pages, 25992 bytes).
