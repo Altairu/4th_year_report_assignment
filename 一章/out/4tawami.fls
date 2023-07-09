@@ -268,4 +268,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 OUTPUT out/4tawami.dvi
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT ./1.pdf
+INPUT ./1.pdf
+INPUT 1.pdf
+INPUT extractbb -p 1 -B cropbox -O 1.pdf
+INPUT ./1.pdf
+INPUT ./1.pdf
+INPUT 1.pdf
+INPUT extractbb -p 2 -B cropbox -O 1.pdf
 INPUT out/4tawami.aux

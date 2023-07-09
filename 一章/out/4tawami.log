@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  10 JUL 2023 00:35
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  10 JUL 2023 01:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,14 +256,25 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 121.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 121.
-[3] (out/4tawami.aux) ) 
+File: 1.pdf Graphic file (type pdf)
+<1.pdf>
+
+LaTeX Warning: Float too large for page by 0.01457pt on input line 134.
+
+[3] [4]
+File: 1.pdf Graphic file (type pdf)
+<1.pdf>
+
+LaTeX Warning: Float too large for page by 0.01457pt on input line 142.
+
+[5] (out/4tawami.aux) ) 
 Here is how much of TeX's memory you used:
- 2572 strings out of 478741
- 39103 string characters out of 5860983
+ 2581 strings out of 478741
+ 39247 string characters out of 5860983
  354134 words of memory out of 5000000
- 20983 multiletter control sequences out of 15000+600000
+ 20988 multiletter control sequences out of 15000+600000
  481032 words of font info for 83 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  55i,9n,62p,273b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/4tawami.dvi (3 pages, 10108 bytes).
+Output written on out/4tawami.dvi (5 pages, 10504 bytes).
