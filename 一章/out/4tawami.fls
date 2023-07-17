@@ -323,6 +323,10 @@ INPUT ./1.jpg
 INPUT ./1.jpg
 INPUT 1.jpg
 INPUT extractbb -B cropbox -O 1.jpg
+INPUT ./9.jpg
+INPUT ./9.jpg
+INPUT 9.jpg
+INPUT extractbb -B cropbox -O 9.jpg
 INPUT ./2.jpg
 INPUT ./2.jpg
 INPUT 2.jpg
@@ -364,12 +368,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT ./7.png
-INPUT ./7.png
-INPUT 7.png
-INPUT extractbb -B cropbox -O 7.png
-INPUT ./8.png
-INPUT ./8.png
-INPUT 8.png
-INPUT extractbb -B cropbox -O 8.png
+INPUT ./10.jpg
+INPUT ./10.jpg
+INPUT 10.jpg
+INPUT extractbb -B cropbox -O 10.jpg
+INPUT ./11.jpg
+INPUT ./11.jpg
+INPUT 11.jpg
+INPUT extractbb -B cropbox -O 11.jpg
 INPUT out/4tawami.aux

@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1689583990 "out/4tawami.dvi" "out/4tawami.pdf" "out/4tawami" 1689583993
-  "out/4tawami.dvi" 1689583990 25928 4bc9eb274200b78692d2d13f6239d9be "latex"
+["dvipdf"] 1689633133 "out/4tawami.dvi" "out/4tawami.pdf" "out/4tawami" 1689633134
+  "out/4tawami.dvi" 1689633133 35780 2bedc416c5e38ea9f7da41254b91d27c "latex"
   (generated)
   "out/4tawami.pdf"
-["latex"] 1689583985 "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" "out/4tawami.dvi" "4tawami" 1689583993
+["latex"] 1689633132 "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" "out/4tawami.dvi" "4tawami" 1689633134
   "/etc/texmf/web2c/texmf.cnf" 1685611959 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" 1689583984 17159 0ed0ac03422252ef817017067383fec6 ""
+  "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" 1689633132 22734 7ead5ce05903e1958bf31776001c8053 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -79,15 +79,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1685611997 2753727 1d086d0a393b82e963f5e0a1c94ec030 ""
   "1.jpg" 1688921552 23644 8799bc00b0de216d26189fe4ecb449e9 ""
+  "10.jpg" 1689632866 30969 2a91612dbb880d9509d00247b05504ff ""
+  "11.jpg" 1689632867 49093 58e5819d7f45253ae8ee343bc9690628 ""
   "2.jpg" 1688921552 27059 f85d9ac7ee83202047495f79f41989e8 ""
   "3.jpg" 1688921552 25408 2a1c3619680bdcba0183b4b786ef25e3 ""
   "4.jpg" 1688921552 28533 ebf59fa7b247d6a9c7c1e646f10a8549 ""
   "5.jpg" 1688921552 40840 ba3e6f83749cf1fb0a8dcea522d52ae0 ""
   "6.jpg" 1688921552 32775 2a085b521953e3d5645a8aa0bb532342 ""
-  "7.png" 1688923921 214577 1d32849dae2463adcc70ffdf6b7ef596 ""
-  "8.png" 1688933978 4378 5ba3a336566abe4b369e0f4e66a02af6 ""
+  "9.jpg" 1689629319 89518 15935d45fd1059d6e7c6d18fbea3b511 ""
   "AB.png" 1688835534 36145 c30af4638c1f2b65368b1654140239cc ""
-  "out/4tawami.aux" 1689583990 2129 8aa7b466ac13f9977053f8bfeaa3d0e7 "latex"
+  "out/4tawami.aux" 1689633133 2493 cf29122ed037b371df10169d478de754 "latex"
   (generated)
   "out/4tawami.aux"
   "out/4tawami.dvi"
