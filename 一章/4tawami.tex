@@ -1,4 +1,7 @@
-\documentclass[a4paper,11pt]{jsarticle}
+\documentclass[a4paper,12pt]{jsarticle}
+\makeatletter
+\renewcommand{\normalsize}{\@setfontsize\normalsize{12pt}{14pt}} % 本文のフォントサイズ
+\makeatother
 \usepackage{multirow}
 %枠設定
 \usepackage[margin=25mm]{geometry}
@@ -7,6 +10,13 @@
 \usepackage{bm}
 % 画像
 \usepackage[dvipdfmx]{graphicx}
+\usepackage{caption}
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\caption@setsize}{\normalsize}{\large}{}{}
+\makeatother
+
 
 \begin{document}
 
@@ -28,26 +38,26 @@
 スパン$l$の両端支持ばりABが,左支点Aから$a$,右支点Bから$b$の距離にある点Cに,集中荷重$W$を受ける場合の
 最大たわみ$y_{max}$は,
 \begin{equation}
-  y_{max} = {\dfrac{Wb({l^2}-{b^2})^{3/2}}{9\sqrt{3}EIl}}
+  y_{max} = {\dfrac{Wb({l^2}-{b^2})}{9\sqrt{3}EIl}}^{\frac{3}{2}}
 \end{equation}
 である．ただし,最大たわみを生ずる位置$x_1$は次のようになる．
 \begin{equation}
   x_1 = {\sqrt{\dfrac{a(a+2b)}{3}}}={\sqrt{\dfrac{{l^2}-{b^2}}{3}}}
 \end{equation}
-また,荷重点C$(x=a)$のたわみ$y_c$および中央のたわみ$(y)_{x={1/2}}$は,それぞれ
+また,荷重点C$(x=a)$のたわみ$y_c$および中央のたわみ$(y)_{x=\frac{\ell}{2}}$は,それぞれ
 \begin{equation}
   y_{c} = {\dfrac{Wa^{2}b^{2}}{3EIl}}
 \end{equation}
 \begin{equation}
-  (y)_{x={1/2}} = {\dfrac{Wb(3l^{2}-4b^{2})}{48EIl}}
+  (y)_{x=\frac{\ell}{2}} = {\dfrac{Wb(3l^{2}-4b^{2})}{48EIl}}
 \end{equation}
 である．なお集中荷重$W$がスパンの中央に位置する場合は,
 \begin{equation}
-  a = b = \dfrac{1}{2}
+  a = b = \dfrac{\ell}{2}
 \end{equation}
 であるから,
 \begin{equation}
-  x_1 = \dfrac{1}{2}
+  x_1 = \dfrac{\ell}{2}
 \end{equation}
 となり,最大たわみ$y_{max}$が求まる．
 \begin{equation}
@@ -109,7 +119,7 @@
 ・はりのスパン：$l = 800[mm]$\\
 \quad・鋼の縦弾性係数(標準値):
 \begin{equation} 
-  E = 2.06 \times 10^5 [MPa] 
+  E = 2.06 \times 10^5 [\text{MPa}]
 \end{equation}
 
 \begin{enumerate}
@@ -118,7 +128,7 @@
   荷重を増加させたときの最大たわみ $(y_{max})_i$と,減少させたときの最大たわみ $(y_{max})_d$を,表２
   に記録する．最大たわみの理論値 $y_{max}$は,式 (1) から計算する．また,誤差率$ \delta [\%]$は,
   \begin{equation} 
-    \delta = \frac{{\left(\frac{{(y_{\text{max}})_i + (y_{\text{max}})_d}}{2} - y_{\text{max}}\right)}}{{y_{\text{max}}}} \times 100[\%]
+    \delta = \frac{{\frac{{(y_{\text{max}})_i + (y_{\text{max}})d}}{2} - y_{\text{max}}}}{{y_{\text{max}}}} \times 100[\%]
   \end{equation}
   から計算する．
   \item $a = 600 [mm] $のとき,最大たわみ$ y_{max}$を生ずる位置 $x_1$は $447.2 [mm] $である．
@@ -127,19 +137,20 @@
   ２と同様にして,表4に最大たわみ$y_{max}$の値を記録する．
 \end{enumerate}
 
-% ページ1の挿入
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[page=1,width=\textwidth,height=\textheight]{1.pdf}
-\end{figure}
+\clearpage
+ページ1の挿入
+%\begin{figure}[htbp]
+%  \centering
+%  \includegraphics[page=1,width=\textwidth,height=\textheight]{1.pdf}
+%\end{figure}
 
 \clearpage
 
-% ページ2の挿入
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[page=2,width=\textwidth,height=\textheight]{1.pdf}
-\end{figure}
+ページ2の挿入
+%\begin{figure}[htbp]
+%  \centering
+%  \includegraphics[page=2,width=\textwidth,height=\textheight]{1.pdf}
+%\end{figure}
 \clearpage
 
 \section{考察および課題}
@@ -147,10 +158,11 @@
   \item 図１の左支点 $A$から集中荷重$ W$ の作用点 $C $までの距離 $a$ が $500,600,700 [mm]$と増加するに
   つれて,$x_1$ はどのように変化するか．図（横軸を $a $,縦軸を$x_1$とする） を描き,考察せよ．［図２］\\
   \\
-  \quad 図2は,横軸を$a$,縦軸を$x_1$として$a$と$x_1$の関係をグラフで示している．
+  \quad 図2は,横軸を$a$,縦軸を$x_1$として$a$と$x_1$の関係を示している．
   図2から明らかなように,左支点Aから点Cまでの距離が増加すると,最大たわみを生じる$x_1$も増加する．
-  また,式(2)の$l^2-b^2$の$b$の値が小さくなると,$x_1$が大きくなることからも,
-  実験結果の正当性が裏付けられる．
+  式(2)の$l^2-b^2$の$b$の値が小さくなると,$x_1$が大きくなるからである．
+  また，変化量がaが大きくなるに連れ小さくなっている．
+
 \clearpage
 \begin{figure}[h]
   \centering
@@ -158,6 +170,7 @@
   \caption{$a$と$x_1$の関係}
 \end{figure}
 \clearpage
+
 \item 横軸に荷重 $W [N] $を,縦軸に最大たわみ$ y_{max}[mm]$（測定値および理論値）をとり,$a$ を変化さ
 せた図を描け［図３～５］.\\
 図３～５を 1 つの図にまとめよ［図６］.\\

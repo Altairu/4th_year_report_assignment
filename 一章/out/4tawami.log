@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  10 JUL 2023 08:03
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  17 JUL 2023 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,15 +159,40 @@ File: dvipdfmx.def 2021/03/18 v5.0j Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
 \l__pdf_internal_box=\box70
-\g__pdf_backend_object_int=\count275
+\g__pdf_backend_object_int=\count278
 \l__pdf_backend_content_box=\box71
 \l__pdf_backend_model_box=\box72
-\g__pdf_backend_annotation_int=\count276
-\g__pdf_backend_link_int=\count277
-\g__pdf_backend_link_sf_int=\count278
+\g__pdf_backend_annotation_int=\count279
+\g__pdf_backend_link_int=\count280
+\g__pdf_backend_link_sf_int=\count281
 ) (out/4tawami.aux
 
 LaTeX Warning: Label `' multiply defined.
@@ -193,24 +218,28 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `4tawami.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 21.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 21.
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -221,94 +250,74 @@ LaTeX Font Info:    ... okay on input line 11.
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=654.26651pt
-* \paperheight=925.30975pt
+* \paperwidth=717.0044pt
+* \paperheight=1014.03809pt
 * \textwidth=455.24411pt
 * \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-34.36624pt
+* \topmargin=-32.09216pt
 * \headheight=20.0pt
-* \headsep=13.22813pt
+* \headsep=10.95406pt
 * \topskip=12.76073pt
-* \footskip=25.98886pt
-* \marginparwidth=18.49374pt
+* \footskip=23.71478pt
+* \marginparwidth=9.24687pt
 * \marginparsep=18.49374pt
 * \columnsep=18.49374pt
 * \skip\footins=16.0pt plus 5.0pt minus 2.0pt
-* \hoffset=6.27573pt
-* \voffset=6.27573pt
-* \mag=1095
+* \hoffset=12.0588pt
+* \voffset=12.0588pt
+* \mag=1200
 * \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 13.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 13.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 13.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 13.
+(Font)              scaled to size 13.83836pt on input line 23.
 File: AB.png Graphic file (type bmp)
 <AB.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 28.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+(Font)              scaled to size 5.76599pt on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 28.
+(Font)              scaled to size 11.53198pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 28.
+(Font)              scaled to size 7.68799pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 28.
+(Font)              scaled to size 5.76599pt on input line 38.
 [1
 
 ] [2]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 121.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 121.
-File: 1.pdf Graphic file (type pdf)
-<1.pdf>
+(Font)              scaled to size 5.76599pt on input line 122.
+[3] [4
 
-LaTeX Warning: Float too large for page by 0.01457pt on input line 134.
+] [5
 
-[3] [4]
-File: 1.pdf Graphic file (type pdf)
-<1.pdf>
-
-LaTeX Warning: Float too large for page by 0.01457pt on input line 142.
-
-[5] [6
-
+] [6
 
 ]
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 158.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 158.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 158.
 
-LaTeX Warning: Float too large for page by 32.73676pt on input line 159.
+LaTeX Warning: Float too large for page by 32.53581pt on input line 171.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -326,7 +335,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 187.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 200.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -335,7 +344,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 193.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 206.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -344,7 +353,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 5.jpg Graphic file (type bmp)
 <5.jpg>
 
-LaTeX Warning: Float too large for page by 4.83305pt on input line 199.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 212.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -353,35 +362,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 6.jpg Graphic file (type bmp)
 <6.jpg>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 205.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 218.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 232.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 232.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 233.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 233.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 233.
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 223.
+LaTeX Warning: Command \textmu invalid in math mode on input line 236.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 223.
+LaTeX Warning: Command \textmu invalid in math mode on input line 236.
 
 Missing character: There is no ^^b5 in font cmr9!
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 228.
+LaTeX Warning: Command \textmu invalid in math mode on input line 241.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 228.
+LaTeX Warning: Command \textmu invalid in math mode on input line 241.
 
 Missing character: There is no ^^b5 in font cmr9!
 
-Overfull \hbox (45.77357pt too wide) in paragraph at lines 220--231
+Overfull \hbox (45.77357pt too wide) in paragraph at lines 233--244
 [][][][] 
  []
 
 File: 7.png Graphic file (type bmp)
 <7.png>
 
-LaTeX Warning: Float too large for page by 4.284pt on input line 253.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 266.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -404,12 +423,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2736 strings out of 478741
- 41554 string characters out of 5860983
- 358736 words of memory out of 5000000
- 21110 multiletter control sequences out of 15000+600000
- 486294 words of font info for 104 fonts, out of 8000000 for 9000
+ 4330 strings out of 478741
+ 70412 string characters out of 5860983
+ 387733 words of memory out of 5000000
+ 22693 multiletter control sequences out of 15000+600000
+ 488032 words of font info for 110 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 55i,13n,62p,273b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,63p,297b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/4tawami.dvi (16 pages, 25852 bytes).
+Output written on out/4tawami.dvi (16 pages, 26028 bytes).
