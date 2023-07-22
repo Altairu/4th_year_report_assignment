@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1689633133 "out/4tawami.dvi" "out/4tawami.pdf" "out/4tawami" 1689633134
-  "out/4tawami.dvi" 1689633133 35780 2bedc416c5e38ea9f7da41254b91d27c "latex"
+["dvipdf"] 1690021638 "out/4tawami.dvi" "out/4tawami.pdf" "out/4tawami" 1690021639
+  "out/4tawami.dvi" 1690021638 36248 9c114d4f7104e4293c463123d0b8e6e1 "latex"
   (generated)
   "out/4tawami.pdf"
-["latex"] 1689633132 "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" "out/4tawami.dvi" "4tawami" 1689633134
+["latex"] 1690021637 "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" "out/4tawami.dvi" "4tawami" 1690021639
   "/etc/texmf/web2c/texmf.cnf" 1685611959 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" 1689633132 22734 7ead5ce05903e1958bf31776001c8053 ""
+  "/home/altair/Documents/4th_year_report_assignment/一章/4tawami.tex" 1690021636 23047 262bc2fcb67b477eb412d076f1d840d8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -88,7 +88,7 @@
   "6.jpg" 1688921552 32775 2a085b521953e3d5645a8aa0bb532342 ""
   "9.jpg" 1689629319 89518 15935d45fd1059d6e7c6d18fbea3b511 ""
   "AB.png" 1688835534 36145 c30af4638c1f2b65368b1654140239cc ""
-  "out/4tawami.aux" 1689633133 2493 cf29122ed037b371df10169d478de754 "latex"
+  "out/4tawami.aux" 1690021638 2356 3ab97c53d572021bcd0d2a11d5a8664f "latex"
   (generated)
   "out/4tawami.aux"
   "out/4tawami.dvi"

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  18 JUL 2023 07:32
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.6.1)  22 JUL 2023 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,7 +343,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
 
-LaTeX Warning: Float too large for page by 4.08305pt on input line 293.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 294.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -352,7 +352,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
 
-LaTeX Warning: Float too large for page by 4.08305pt on input line 299.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 300.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -361,7 +361,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 5.jpg Graphic file (type bmp)
 <5.jpg>
 
-LaTeX Warning: Float too large for page by 4.08305pt on input line 305.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 306.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -370,38 +370,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: 6.jpg Graphic file (type bmp)
 <6.jpg>
 
-LaTeX Warning: Float too large for page by 4.08305pt on input line 311.
+LaTeX Warning: Float too large for page by 4.08305pt on input line 312.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 326.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 326.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 327.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 327.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 327.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 328.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 327.
+(Font)              scaled to size 8.64899pt on input line 328.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 328.
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 330.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 330.
-
-Missing character: There is no ^^b5 in font cmr9!
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 335.
+LaTeX Warning: Command \textmu invalid in math mode on input line 331.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 335.
+LaTeX Warning: Command \textmu invalid in math mode on input line 331.
 
 Missing character: There is no ^^b5 in font cmr9!
 
-Overfull \hbox (45.77357pt too wide) in paragraph at lines 327--338
+LaTeX Warning: Command \textmu invalid in math mode on input line 336.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 336.
+
+Missing character: There is no ^^b5 in font cmr9!
+
+Overfull \hbox (45.77357pt too wide) in paragraph at lines 328--339
 [][][][] 
  []
 
@@ -417,10 +417,8 @@ File: 10.jpg Graphic file (type bmp)
 <10.jpg>
 File: 11.jpg Graphic file (type bmp)
 <11.jpg>
-[17
-
-]
-Overfull \hbox (71.33086pt too wide) in paragraph at lines 409--410
+[17]
+Overfull \hbox (71.33086pt too wide) in paragraph at lines 413--414
 []\OT1/cmr/m/n/12 http://www17.plala.or.jp/poppy06/downloadfile/structure/11DefrectionofBeam1.pdf(2023/07/17) 
  []
 
@@ -438,4 +436,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  55i,16n,63p,297b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/4tawami.dvi (18 pages, 35780 bytes).
+Output written on out/4tawami.dvi (18 pages, 36248 bytes).
