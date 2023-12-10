@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1687720456 "out/4zikidampa2.dvi" "out/4zikidampa2.pdf" "out/4zikidampa2" 1687720458
-  "out/4zikidampa2.dvi" 1687720455 35460 b8b264caf9903cdbf7e7207b8cd902e1 "latex"
+["dvipdf"] 1702173632 "out/4zikidampa2.dvi" "out/4zikidampa2.pdf" "out/4zikidampa2" 1702173635
+  "out/4zikidampa2.dvi" 1702173632 35328 9082d525b5a1417d759c6fea76d412d1 "latex"
   (generated)
   "out/4zikidampa2.pdf"
-["latex"] 1687720452 "/home/altair/Documents/レポート/四章/2/4zikidampa2.tex" "out/4zikidampa2.dvi" "4zikidampa2" 1687720458
+["latex"] 1702173629 "/home/altair/Documents/4th_year_report_assignment/四章/2/4zikidampa2.tex" "out/4zikidampa2.dvi" "4zikidampa2" 1702173635
   "/etc/texmf/web2c/texmf.cnf" 1685611959 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/altair/Documents/レポート/四章/2/4zikidampa2.tex" 1687720452 24489 06bde7eae4ee1297b75b51d0974b8952 ""
+  "/home/altair/Documents/4th_year_report_assignment/四章/2/4zikidampa2.tex" 1702173629 24315 df5dd57559ec29612d76878780339296 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -76,7 +76,7 @@
   "damp1.png" 1687710119 133457 a039a1c78ed8ccc44089f3ed0028f67b ""
   "damp2.png" 1687710139 97653 4d3c9d67f3bffdeb44cbd8367b36c6ba ""
   "damp3.png" 1687710157 85508 3f7769c6b71c66fc1059b200022a06aa ""
-  "out/4zikidampa2.aux" 1687720455 6889 be1b7d566093fed6f4b937d743d083e3 "latex"
+  "out/4zikidampa2.aux" 1702173632 6889 be1b7d566093fed6f4b937d743d083e3 "latex"
   "vib1.png" 1687705512 173388 0bfd5051f816d79fee7bc9d7c3fbe03a ""
   "vib2.png" 1687705496 139200 98503718e88d2b78cd6e6e0174c37dde ""
   "vib3.png" 1687705334 109610 d6cb0f281252b41bcb60ee048af05cc9 ""
